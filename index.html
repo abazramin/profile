@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abazramin</title>
+    <!-- file bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- the file main css -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,900&family=Work+Sans:wght@200;300;500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <link rel="icon" href="images/logo-page.png">
+</head>
+
+<body data-bs-thems="dark">
+    <!-------------------------------------- start Navbar --------------------------->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-page.png" alt="">
+            </a>
+            <div class=" form-check form-switch mx-4">
+                <input type="checkbox" class="form-check-input p-2" role="switch" id="flexSwitchCheckChecked" checked
+                    onclick="darkMode()">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="main-navbar collapse navbar-collapse" id="main">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link p-2 p-lg-3" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#pricing">pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#contact">Contect Us</a>
+                    </li>
+                </ul>
+                <div class="serach ps-3 pe-3 d-none d-lg-block">
+                    <i class="fa-solid fa-search"></i>
+                </div>
+                <a class="log rounded-pill main-btn  " href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-------------------------------------- End Navbar ------------------------------>
+    <!--------------------------------------Start Landing ---------------------------->
+    <div class="landing position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 d-flex align-items-center">
+                    <div class="text-landing dark">
+                        <h1 class="fs-1">Nice to meet you ! <br> i'm Abazr amin.</h1>
+                        <p class="fs-5  mb-4 ">Based in the sudan, i'm a front-end developer
+                            passionate about building accessible website that users loves
+                        </p>
+                        <a class="contact-btn" href="#">CONTACT ME</a>
+                        <a class=" ms-5 rounded-pill main-btn text-uppercase" href="#"> Projects</a>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-6">
+                    <div class="photo pt-5">
+                        <div class="image">
+                            <img src="images/web-develper.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-------------------------------------- End Landing ---------------------------->
+    <!-------------------------------------- Start Services ---------------------------->
+    <div class="Services  pt-5 pb-5" id="Services">
+        <div class="container">
+            <div class="main-title mt-5 mb-5 position-relative text-center">
+                <h2>Our Sevices</h2>
+            </div>
+            <div class="row pt-5">
+                <div class=" col-sm-12  col-lg-3">
+                    <div class="box-services">
+                        <i class="fas fa-laptop-code"></i>
+                        <h2>web-develper</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In recusandae sed facere inventore
+                            ea
+                            natus, facilis doloribus esse quam libero? Facere laborum, </p>
+                    </div>
+                </div>
+                <div class=" col-sm-12  col-lg-3">
+                    <div class="box-services ">
+                        <i class="fa-solid fa-tablet-screen-button"></i>
+                        <h2>Full Responsive</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In recusandae sed facere inventore
+                            ea
+                            natus, facilis doloribus esse quam libero? Facere laborum, ipsam aut </p>
+                    </div>
+                </div>
+                <div class=" col-sm-12  col-lg-3">
+                    <div class="box-services">
+                        <i class="fa-solid fa-image"></i>
+                        <h2>Photshoop</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In recusandae sed facere inventore
+                            ea
+                            natus, facilis doloribus esse quam libero? Facere laborum, ipsam aut </p>
+                    </div>
+                </div>
+                <div class="mddd col-sm-12  col-lg-3">
+                    <div class="box-services">
+                        <i class="fa-solid fa-object-ungroup"></i>
+                        <h2>Create Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In recusandae sed facere inventore
+                            ea
+                            natus, facilis doloribus esse quam libero? Facere laborum, ipsam aut </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End services ---------------------------->
+    <!-------------------------------------- Start About  ---------------------------->
+    <div class="about pt-5 " id="about">
+        <div class="container">
+            <div class="main-title text-center position-relative mt-5 mb-5">
+                <h1>About</h1>
+                <p class="text-black-50"></p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-mb-3 text-center text-md-start">
+                    <div class="text">
+                        <h4>About Me</h4>
+                        <p class=" fs-6">
+                            I am a web developer from Sudan, Omdurman. I build a website using best technology, write
+                            clean code, fully responsive website with different screens
+                        </p>
+                        <a class="main-btn  rounded-pill" href="#"> Let's Talk</a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="iamage">
+                        <img class="img-fluid" src="images/about-me.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End  About ---------------------------->
+    <!-------------------------------------- Start  Team ---------------------------->
+    <div class="taems text-center pt-5 pb-5">
+        <h3 class="fw-bold text-uppercase">our team</h3>
+        <h1 class="heading">Meet Expert Team.</h1>
+        <div class="container">
+            <!-- scroolbar -->
+            <span class="up"><i class="fa-solid fa-circle-up"></i>ToUp</span>
+            <!-- scrool bar -->
+            <div class="row pt-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxing-1   d-flex p-4 rounded-4 m-3 position-relative flex-column
+                        align-items- justify-content-between">
+                        <div class="top">
+                        </div>
+                        <div class="nav d-flex justify-content-between align-items-center w-100">
+                            <i class="true-1 fas fa-check-circle"></i>
+                            <!--  -->
+                            <input type="checkbox" class="heart-btn d-none" id="heart-btn">
+                            <label class="heart" for="heart-btn"></label>
+                        </div>
+                        <!-- Deitles  -->
+                        <div class="info">
+                            <img src="images/team-4.jpg" alt="">
+                            <h3 class="fw-bold lh-1 mt-3">
+                                Abazr
+                            </h3>
+                            <p class=" mt-2">abazmin@gmail.com</p>
+                        </div>
+                        <!--  -->
+                        <div class="button w-100 d-flex justify-content-between align-items-center">
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-clipboard-list ms-3"></i>front-end</a>
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-eye"></i>view</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxing-1  shadow-sm d-flex p-4 rounded-4 m-3 position-relative flex-column
+                        align-items- justify-content-between">
+                        <div class="top">
+                        </div>
+                        <div class="nav d-flex justify-content-between align-items-center w-100">
+                            <i class="true-1 fas fa-check-circle"></i>
+                            <!--  -->
+                            <input type="checkbox" class="heart-btn d-none" id="heart-btn-1">
+                            <label class="heart" for="heart-btn-1"></label>
+                        </div>
+                        <!--  -->
+                        <div class="info">
+                            <img src="images/team-2.jpg" alt="">
+                            <h3 class="fw-bold lh-1 mt-3">Ashraf</h3>
+                            <p class=" mt-2">ash@gmail.com</p>
+                        </div>
+                        <!--  -->
+                        <div class="button w-100 d-flex justify-content-between align-items-center">
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-clipboard-list ms-3"></i>back-end</a>
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-eye"></i>view</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxing-1   d-flex p-4 rounded-4 m-3 position-relative flex-column
+                        align-items- justify-content-between">
+                        <div class="top">
+                        </div>
+                        <div class="nav d-flex justify-content-between align-items-center w-100">
+                            <i class="true-1 fas fa-check-circle"></i>
+                            <!--  -->
+                            <input type="checkbox" class="heart-btn d-none" id="heart-btn-2">
+                            <label class="heart" for="heart-btn-2"></label>
+                        </div>
+                        <!--  -->
+                        <div class="info">
+                            <img src="images/team-3.jpg" alt="">
+                            <h3 class="fw-bold lh-1 mt-3">ismail</h3>
+                            <p class=" mt-2">ismail@gmail.com</p>
+                        </div>
+                        <!--  -->
+                        <div class="button w-100 d-flex justify-content-between align-items-center">
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-clipboard-list ms-3"></i>back-end</a>
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-eye"></i>view</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="boxing-1   d-flex p-4 rounded-4 m-3 position-relative flex-column
+                        align-items- justify-content-between">
+                        <div class="top">
+                        </div>
+                        <div class="nav d-flex justify-content-between align-items-center w-100">
+                            <i class="true-1 fas fa-check-circle"></i>
+                            <!--  -->
+                            <input type="checkbox" class="heart-btn d-none" id="heart-btn-3">
+                            <label class="heart" for="heart-btn-3"></label>
+                        </div>
+                        <!--  -->
+                        <div class="info">
+                            <img src="images/team-1.jpg" alt="">
+                            <h3 class="fw-bold lh-1 mt-3">omer babiker</h3>
+                            <p class=" mt-2">omer@gmail.com</p>
+                        </div>
+                        <!--  -->
+                        <div class="button w-100 d-flex justify-content-between align-items-center">
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-clipboard-list ms-3"></i>UI &&
+                                XI</a>
+                            <a class=" fs-6 ps-2" href="#"><i class="fas fa-eye"></i>view</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End  Team ---------------------------->
+    <!-------------------------------------- Start Pricing ---------------------------->
+    <div class="pricing pt-5 pb-5 text-center" id="pricing">
+        <div class="container">
+            <div class="main-title text-center text-uppercase position-relative mt-5 mb-5">
+                <h1>Pricing plan</h1>
+                <p class="text-black-50"></p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="box-pr">
+                        <h3 class="title pt-5">Personal</h3>
+                        <i class="fa-solid fa-user"></i>
+                        <div class="price ">
+                            <span class="amount">$50</span>
+                            <span class="time">per month</span>
+                        </div>
+                        <ul>
+                            <li>10GB HDD Space</li>
+                            <li>5 Email Addresses</li>
+                            <li>2 Subdomains</li>
+                            <li>4 Databases</li>
+                            <li>Basic Support</li>
+                        </ul>
+                        <a href="#">SUBSCRIBE</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box-pr">
+                        <h3 class="title pt-5">Team</h3>
+                        <i class="fa-solid fa-users"></i>
+                        <div class="price">
+                            <span class="amount">$150</span>
+                            <span class="time">per month</span>
+                        </div>
+                        <ul>
+                            <li>30GB SSD Space</li>
+                            <li>15 Email Addresses</li>
+                            <li>10 Subdomains</li>
+                            <li>10 Databases</li>
+                            <li>Advance Support</li>
+                        </ul>
+                        <a href="#">SUBSCRIBE</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box-pr">
+                        <h3 class="title pt-5">Corporate</h3>
+                        <i class="fa-solid fa-users-line"></i>
+                        <div class="price">
+                            <span class="amount">$300</span>
+                            <span class="time">per month</span>
+                        </div>
+                        <ul>
+                            <li>50GB SSD Space</li>
+                            <li>20 Email Addresses</li>
+                            <li>15 Subdomains</li>
+                            <li>15 Databases</li>
+                            <li>pro Support</li>
+                        </ul>
+                        <a href="#">SUBSCRIBE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End Pricing ---------------------------->
+    <!-------------------------------------- Start Project ---------------------------->
+    <div class="projects text-center pt-5 pb-5">
+        <div class="container">
+            <div class="box">
+                <h1 class="fa-bold"> Start Your Project Now</h1>
+                <p class=" mb-lg-5">Leave your description and we start the engine.Don't worry,you can
+                    cancel
+                    anytime</p>
+                <a class="main-btn  rounded-pill text-uppercase" href="#"> Start Project</a>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End project---------------------------->
+    <!-------------------------------------- start Contact us ---------------------------->
+    <div class="contact pt-5 pb-5" id="contact">
+        <div class="container mt-5 shadow ">
+            <div class="row ">
+                <div class="boxing-content col-md-4  p-5 text-white order-sm-first order-last">
+                    <h2>Let' get in touch</h2>
+                    <p>We're open for any suggestion or just to have a chat</p>
+                    <div class="d-flex mt-2">
+                        <p class="mt-3 ms-3">Address : Road 54 south 11th Street,</p>
+                    </div>
+                    <div class="d-flex mt-2">
+                        <p class="mt-4 ms-3">Phone : 00000000000000</p>
+                    </div>
+                    <div class="d-flex mt-2">
+                        <p class="mt-4 ms-3">Email : abazzzzzzzz@gmail.com</p>
+                    </div>
+                    <div class="d-flex mt-2">
+                        <p class="mt-4 ms-3"> linkedin : abazramin</p>
+                    </div>
+                </div>
+                <div class="col-md-8 p-5 ">
+                    <h2>Get in touch</h2>
+                    <form class="row g-3 contactForm mt-4">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">First Name</label>
+                            <input type="email" class="form-control" id="inputEmail4" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Last Name</label>
+                            <input type="password" class="form-control" id="inputPassword4" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="inputAddress" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Email Id</label>
+                            <input type="text" class="form-control" id="inputAddress" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Contact Number</label>
+                            <input type="text" class="form-control" id="inputCity" required>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn main-btn mt-3">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End Contact us ---------------------------->
+    <!-------------------------------------- Start Footer ---------------------------->
+    <div class="footer pt-5 text-black text-md-start">
+        <div class="container">
+            <div class="foot text-center pb-5">
+                <h2>Want to Partner with us</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="info mb-5">
+                        <img src="images/logo-page.png" alt="" class="mb-4 img-fluid w-25">
+                        <p class="mb-5 text-black">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                            lacinia
+                            eget
+                            consectetur sed, convallis at tellus.</p>
+                        <div class="copyright "> Created By <span>Graphberry</span>
+                            <div>&copy;All Right Reserved</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="">Links</h5>
+                    <ul class="list-unstyled lh-lg">
+                        <li>Home</li>
+                        <li>Our Services</li>
+                        <li>Testimonials</li>
+                        <li>Support</li>
+                        <li>Terms and Condition</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="">Links</h5>
+                    <ul class="list-unstyled lh-lg text-black">
+                        <li>About Us</li>
+                        <li>Sing In</li>
+                        <li>Register</li>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact">
+                        <h5 class="">Contact Us</h5>
+                        <p class="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your
+                            call
+                            or message</p>
+                        <a href="#" class=" rounded-pill main-btn w-100 ">£££££££££@gamil.com</a>
+                        <ul class="center-icon d-flex mt-5 list-unstyled gap-3 ">
+                            <li>
+                                <a href="#" class="d-block ">
+                                    <i
+                                        class="fa-brands fa-square-facebook fs-lg facebook rounded-circle p-2 text-light"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block ">
+                                    <i class="fa-brands fa-twitter fs-lg twitter rounded-circle p-2 text-light"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block ">
+                                    <i class="fa-brands fa-linkedin fs-lg linkedin rounded-circle p-2 text-light"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block ">
+                                    <i class="fa-brands fa-youtube fs-lg youtube rounded-circle p-2 text-light"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- End Footer ---------------------------->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
